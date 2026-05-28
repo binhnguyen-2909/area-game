@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Arena GUI",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "arenachallenge.Main",
+      "classPaths": [
+        "${workspaceFolder}/lib/arena-framework.jar",
+        "${workspaceFolder}/out"
+      ],
+      "args": "student.StudentBotImpl",
+      "preLaunchTask": "Compile Arena Bot"
+    }
+  ]
+}

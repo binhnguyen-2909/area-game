@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile Arena Bot",
+      "type": "shell",
+      "command": "${workspaceFolder}/compile.sh",
+      "windows": {
+        "command": "${workspaceFolder}\\compile.bat"
+      },
+      "problemMatcher": "$javac",
+      "group": "build"
+    }
+  ]
+}
